@@ -1,76 +1,38 @@
 ## Mi lista de comandos usados
- 1164  cd /var/www/html/
- 1165  mkdir curso_laravel
- 1166  cd curso_laravel/
- 1167  cd ..
- 1168  rm -r curso_laravel/
- 1169  composer create-project --prefer-dist laravel/laravel blog "5.7.*" curso_laravel
- 1170  composer create-project --prefer-dist laravel/laravel curso_laravel "5.7.*"
- 1171  git remote add origin git@github.com:vandro/Curso-Laravel.git
- 1172  git config --local user.email "vandro.nds@gmail.com"
- 1173  git config --local user.name "Vandro Laravel"
- 1174  sudo chmod -R 777 storage/
- 1175  php artisan make:migration create_usuario_table
- 1176  artisan make:migration create_usuario_table
- 1177  php artisa make:migration create_usuario_table
- 1178  php artisan make:migration create_usuario_table
- 1179  artisan make:migration create_usuario_table
- 1180  ls
- 1181  suf chmod -R artisan 
- 1182  sudo chmod -R artisan 
- 1183  artisan make:migration create_usuario_table
- 1184  cat /home/vandro/.config/composer/vendor/bin
- 1185  ls /home/vandro/.config/composer/vendor/bin
- 1186  echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
- 1187  source ~/.bashrc
- 1188  echo $PATH
- 1189  laravel
- 1190  artisan
- 1191  php artisan make:migration create_usuario_table
- 1192  php -v
- 1193  php -h
- 1194  php -v
- 1195  /usr/bin/php artisan make:migration create_usuario_table
- 1196  /usr/bin/php artisan migration
- 1197  /usr/bin/php artisan migrate
- 1198  /usr/bin/php artisan migrate:reset
- 1199  /usr/bin/php artisan migrate
- 1200  /usr/bin/php artisan make:migration create_rol_table
- 1201  /usr/bin/php artisan make:migration create_permiso_table
- 1202  /usr/bin/php artisan make:migration create_usuario_rol_table
- 1203  /usr/bin/php artisan make:migration create_permiso_rol_table
- 1204  /usr/bin/php artisan make:migration create_libro_table
- 1205  /usr/bin/php artisan make:migration create_libro_prestamo_table
- 1206  /usr/bin/php artisan migrate
- 1207  /usr/bin/php artisan migrate:refres
- 1208  /usr/bin/php artisan --version
- 1209  composer update
- 1210  /usr/bin/php artisan --version
- 1211  /usr/bin/php artisan make:seeder TablaRolSeeder
- 1212  /usr/bin/php artisan migrate:refres
- 1213  /usr/bin/php artisan db:seed
- 1214  /usr/bin/php artisan make:seeder TablaPermisoSeeder
- 1215  /usr/bin/php artisan make:factory PermisoFactory
- 1216  /usr/bin/php artisan make:model Models/Permiso
- 1217  /usr/bin/php artisan db:seed
- 1218  /usr/bin/php artisan make:controller PermisoController
- 1219  /usr/bin/php artisan make:controller PermisoController -r
- 1220  /usr/bin/php artisan config:clear
- 1221  /usr/bin/php artisan cache:clear
- 1222  composer dump-autoload
- 1223  /usr/bin/php artisan make:controller PermisoController -r
- 1224  /usr/bin/php artisan make:controller PermisoController -r --force
- 1225  /usr/bin/php artisan make:controller PermisoController -r --plain
- 1226  /usr/bin/php artisan make:controller PermisoController -r -v
- 1227  /usr/bin/php artisan make:controller PermisoController -r -vv
- 1228  /usr/bin/php artisan make:controller PermisoController -r -vvv
- 1229* /usr/bin/php artisan make:controller PermisoController -r -vvv 
- 1230  /usr/bin/php artisan make:controller PermisoController -r -vvv
- 1231  /usr/bin/php artisan make:controller PermisoController -r -v
- 1232  /usr/bin/php artisan make list
- 1233  /usr/bin/php artisan list
- 1234  /usr/bin/php artisan -h
- 1235  sudo chmod -R 777 storage
+ -  cd /var/www/html/
+ -  composer create-project --prefer-dist laravel/laravel curso_laravel "5.7.*"
+ -  git remote add origin git@github.com:vandro/Curso-Laravel.git
+ -  git config --local user.email "vandro.nds@gmail.com"
+ -  git config --local user.name "Vandro Laravel"
+ -  sudo chmod -R 777 storage/
+ -  /usr/bin/php artisan make:migration create_usuario_table
+ -  /usr/bin/php artisan migrate
+ -  /usr/bin/php artisan migrate:reset
+ -  /usr/bin/php artisan make:migration create_rol_table
+ -  /usr/bin/php artisan make:migration create_permiso_table
+ -  /usr/bin/php artisan make:migration create_usuario_rol_table
+ -  /usr/bin/php artisan make:migration create_permiso_rol_table
+ -  /usr/bin/php artisan make:migration create_libro_table
+ -  /usr/bin/php artisan make:migration create_libro_prestamo_table
+ -  /usr/bin/php artisan migrate
+ -  /usr/bin/php artisan migrate:refres
+ -  /usr/bin/php artisan --version
+ -  composer update
+ -  /usr/bin/php artisan --version
+ -  /usr/bin/php artisan make:seeder TablaRolSeeder
+ -  /usr/bin/php artisan migrate:refres
+ -  /usr/bin/php artisan db:seed
+ -  /usr/bin/php artisan make:seeder TablaPermisoSeeder
+ -  /usr/bin/php artisan make:factory PermisoFactory
+ -  /usr/bin/php artisan make:model Models/Permiso
+ -  /usr/bin/php artisan db:seed
+ -  /usr/bin/php artisan make:controller PermisoController -r
+ -  /usr/bin/php artisan config:clear
+ -  /usr/bin/php artisan cache:clear
+ -  composer dump-autoload
+ -  /usr/bin/php artisan list
+ -  /usr/bin/php artisan -h
+ -  sudo chmod -R 777 storage
 
 ## ------------------------------
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
